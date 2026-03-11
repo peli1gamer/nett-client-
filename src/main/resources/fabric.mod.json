@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id":            "nett",
+  "version":       "${version}",
+  "name":          "Nett",
+  "description":   "Auto kelp-seller addon for Meteor Client.",
+  "authors":       ["peli1gamer"],
+  "license":       "MIT",
+  "environment":   "client",
+
+  "entrypoints": {
+    "meteor": [
+      "dev.nett.NettAddon"
+    ]
+  },
+
+  "depends": {
+    "minecraft":      "~1.21.4",
+    "fabricloader":   ">=0.16.9",
+    "meteor-client":  ">=0.5.8"
+  }
+}
